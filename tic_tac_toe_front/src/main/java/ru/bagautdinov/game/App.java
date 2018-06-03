@@ -20,7 +20,7 @@ public class App  extends Application {
     public void start(Stage primaryStage) throws Exception {
         menuStage = new Stage();
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/main.fxml"));
             menuStage.setTitle("Tic Tac Toe Menu");
             menuStage.setScene(new Scene(root));
             menuStage.initModality(Modality.WINDOW_MODAL);
@@ -30,7 +30,7 @@ public class App  extends Application {
 
         gameStage = new Stage();
         try {
-            Parent gameRoot = FXMLLoader.load(getClass().getResource("tictactoe.fxml"));
+            Parent gameRoot = FXMLLoader.load(getClass().getResource("/tictactoe.fxml"));
             gameStage.setTitle("Tic Tac Toe Game");
             gameStage.setScene(new Scene(gameRoot));
             menuStage.initModality(Modality.WINDOW_MODAL);

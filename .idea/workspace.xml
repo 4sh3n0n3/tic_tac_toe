@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c02b86ac-0b18-4fd0-b15d-ab28d5c00259" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/tictactoe.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/tictactoe.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic_tac_toe_back/tic_tac_toe_back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_back/tic_tac_toe_back.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/MainController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="ServerEndPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/ServerEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="187">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,26 +37,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="221">
+              <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#262#263#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
       <file leaf-file-name="ClientEndPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/ClientEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <element signature="e#1123#1124#0" expanded="true" />
                 <element signature="e#1177#1178#0" expanded="true" />
@@ -68,8 +103,8 @@
       <file leaf-file-name="tictactoe.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/tictactoe.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -80,41 +115,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MessageDecoder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/MessageDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageEncoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/MessageEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommadnsHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/utils/CommadnsHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -123,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/Message.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -159,6 +164,9 @@
         <option value="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/ClientEndPoint.java" />
         <option value="$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/tictactoe.fxml" />
         <option value="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/GameController.java" />
+        <option value="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/App.java" />
+        <option value="$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/main.fxml" />
+        <option value="$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/MainController.java" />
       </list>
     </option>
   </component>
@@ -185,10 +193,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1457" />
-    <option name="height" value="877" />
+    <option name="x" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -340,9 +347,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -363,7 +370,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.bagautdinov.game.App" />
+      <module name="tic_tac_toe_front" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.bagautdinov.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.bagautdinov.Launcher" />
       <module name="tic_tac_toe_back" />
@@ -416,6 +434,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -428,7 +455,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528037775695</updated>
       <workItem from="1528037779498" duration="1915000" />
-      <workItem from="1528043985479" duration="3511000" />
+      <workItem from="1528043985479" duration="6815000" />
     </task>
     <task id="LOCAL-00001" summary="client">
       <created>1528045079340</created>
@@ -437,11 +464,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528045079341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="GameController">
+      <created>1528047538113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528047538113</updated>
+    </task>
+    <task id="LOCAL-00003" summary="GameController">
+      <created>1528049607747</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528049607747</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TextField">
+      <created>1528050557127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528050557127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5426000" />
+    <option name="totallyTimeSpent" value="8730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -490,7 +538,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="client" />
-    <option name="LAST_COMMIT_MESSAGE" value="client" />
+    <MESSAGE value="GameController" />
+    <MESSAGE value="TextField" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextField" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/Launcher.java">
@@ -733,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/utils/CommadnsHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="391">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -761,21 +811,21 @@
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/MessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/ClientEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <element signature="e#1123#1124#0" expanded="true" />
             <element signature="e#1177#1178#0" expanded="true" />
@@ -785,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_back/src/main/java/ru/bagautdinov/ServerEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="187">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -795,21 +845,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/tictactoe.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="102" column="7" lean-forward="true" selection-start-line="102" selection-start-column="7" selection-end-line="102" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="221">
+          <caret line="61" column="45" lean-forward="true" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#262#263#0" expanded="true" />
             <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/resources/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic_tac_toe_front/src/main/java/ru/bagautdinov/game/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
