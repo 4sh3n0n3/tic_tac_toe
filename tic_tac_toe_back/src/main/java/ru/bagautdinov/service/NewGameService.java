@@ -11,10 +11,10 @@ public class NewGameService {
     public Game makeNewGame(Player player) {
         if (currentGame == null) {
             currentGame = new Game();
-            currentGame.setPlayer1(player);
+            currentGame.setP1(player);
             newCollectedGame = currentGame;
         } else {
-            currentGame.setPlayer2(player);
+            currentGame.setP2(player);
             newCollectedGame = currentGame;
             currentGame = null;
         }
