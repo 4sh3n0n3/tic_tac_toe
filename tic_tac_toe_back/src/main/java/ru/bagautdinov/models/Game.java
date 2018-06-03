@@ -1,5 +1,6 @@
 package ru.bagautdinov.models;
 
+import javax.websocket.*;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
@@ -31,8 +32,45 @@ public class Game {
     @JoinColumn(name = "player_id", nullable = false)
     private Player winner=null;
 
+    private Session p1Session;
+
+    public Session getP2Session() {
+        return p2Session;
+    }
+
+    public void setP2Session(Session p2Session) {
+        this.p2Session = p2Session;
+    }
+
+    public Session getP1Session() {
+        return p1Session;
+    }
+
+    public void setP1Session(Session p1Session) {
+        this.p1Session = p1Session;
+    }
+
+    private Session p2Session;
+    private char[][] field;
+    private int counter=0;
     public long getId() {
         return id;
+    }
+
+    public char[][] getField() {
+        return field;
+    }
+
+    public void setField(char[][] field) {
+        this.field = field;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void setCounter(int counter) {
+        this.counter = counter;
     }
 
     public Player getP1() {

@@ -1,7 +1,10 @@
 package ru.bagautdinov;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import ru.bagautdinov.models.Game;
 import ru.bagautdinov.models.Player;
+import ru.bagautdinov.repository.PlayerRepository;
+import ru.bagautdinov.utils.CommadnsHandler;
 
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
@@ -17,6 +20,11 @@ import static java.lang.String.format;
 @ServerEndpoint(value = "/server", encoders = {MessageEncoder.class}, decoders = {MessageDecoder.class})
 public class ServerEndPoint {
 
+    @Autowired
+    PlayerRepository pr;
+    @Autowired
+    CommadnsHandler commadnsHandler;
+
     static Set<Session> detailUsers = Collections.synchronizedSet(new HashSet<Session>());
 
     @OnOpen
@@ -28,10 +36,14 @@ public class ServerEndPoint {
     @OnMessage
     public void handleMessage(Message incomingMessage, Session session) throws IOException, EncodeException {
         Game currentGame = (Game) session.getUserProperties().get("currentGame");
-        Player player = (Game) session.getUserProperties().get("player");
+        Player player = (Player) session.getUserProperties().get("player");
         Message outcomingMessageData = new Message();
-
-        proceedCommand(incomingMessage.getMessage(), currentGame, player);
+        if(player==null){
+            if(!pr.existsByName(incomingMessage.getUsername()))return;
+            player= pr.findByName(incomingMessage.getUsername());
+            session.getUserProperties().put("player",player);
+        }
+        commadnsHandler.proceedCommand(incomingMessage.getMessage(), currentGame, player,session);
 
 
 
