@@ -37,8 +37,10 @@ public class App  extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        primaryStage = menuStage;
-        primaryStage.show();
+        changeStage(true);
+    }
+    public void changeStage(boolean isInMenu){
+        if(isInMenu)menuStage.show();
+        else gameStage.show();
     }
 }
