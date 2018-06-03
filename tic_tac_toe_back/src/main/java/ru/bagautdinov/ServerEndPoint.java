@@ -1,6 +1,7 @@
 package ru.bagautdinov;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import ru.bagautdinov.models.Game;
 import ru.bagautdinov.models.Player;
 import ru.bagautdinov.repository.PlayerRepository;
@@ -17,6 +18,7 @@ import java.util.Set;
 import static java.lang.String.format;
 
 
+@Component
 @ServerEndpoint(value = "/server", encoders = {MessageEncoder.class}, decoders = {MessageDecoder.class})
 public class ServerEndPoint {
 
@@ -37,6 +39,8 @@ public class ServerEndPoint {
     public void handleMessage(Message incomingMessage, Session session) throws IOException, EncodeException {
         Game currentGame = (Game) session.getUserProperties().get("currentGame");
         Player player = (Player) session.getUserProperties().get("player");
+        Player player = (Player) session.getUserProperties().get("player");
+
         Message outcomingMessageData = new Message();
         if(player==null){
             if(!pr.existsByName(incomingMessage.getUsername()))return;
