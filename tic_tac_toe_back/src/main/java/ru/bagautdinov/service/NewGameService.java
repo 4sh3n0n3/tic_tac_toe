@@ -38,7 +38,7 @@ public class NewGameService {
             newCollectedGame = currentGame;
             currentGame = null;
         }
-        outcomingMessageData.setMessage("win "+x);
+        outcomingMessageData.setMessage("set "+x);
         s.getBasicRemote().sendObject(outcomingMessageData);
         return newCollectedGame;
     }

@@ -38,7 +38,8 @@ public class ServerEndPoint {
     public void handleMessage(Message incomingMessage, Session session) throws IOException, EncodeException {
         Game currentGame = (Game) session.getUserProperties().get("currentGame");
         Player player = (Player) session.getUserProperties().get("player");
-        Message outcomingMessageData = new Message();
+        if (incomingMessage==null)return;
+        if(player==null) System.out.println("hui");
         if(player==null){
             if(!pr.existsByName(incomingMessage.getUsername()))return;
             player= pr.findByName(incomingMessage.getUsername());

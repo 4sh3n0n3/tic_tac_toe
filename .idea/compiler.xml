@@ -27,7 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tic_tac_toe" target="1.5" />
+      <module name="tic_tac_toe" target="1.7" />
       <module name="tic_tac_toe_back" target="1.8" />
       <module name="tic_tac_toe_front" target="1.8" />
     </bytecodeTargetLevel>

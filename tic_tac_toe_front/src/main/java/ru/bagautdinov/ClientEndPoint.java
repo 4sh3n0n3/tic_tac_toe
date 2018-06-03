@@ -1,6 +1,7 @@
 package ru.bagautdinov;
 
 import org.glassfish.tyrus.client.ClientManager;
+import ru.bagautdinov.game.GameController;
 
 import javax.websocket.*;
 import java.io.IOException;
@@ -20,7 +21,7 @@ import static java.lang.String.format;
 public class ClientEndPoint  {
     public static final String SERVER = "ws://localhost:8080/ws/server";
 
-    private Session session;
+    private static Session session;
     public ClientEndPoint()  {
         ClientManager client = ClientManager.createClient();
         try {
@@ -31,7 +32,7 @@ public class ClientEndPoint  {
 
     }
 
-    public Session getSession() {
+    public static Session getSession() {
         return session;
     }
 
@@ -41,7 +42,26 @@ public class ClientEndPoint  {
     }
 
     @OnMessage
-    public void onMessage(Message message) {
+    public void onMessage(Message message,Session session) {
         System.out.println(message.toString());
+        String command=message.getMessage();
+        String[] commands = command.split(" ");
+        if (commands[0].equals("set")) {
+            GameController.setPlayerChar(commands[1]);
+        } else if (commands[0].equals("win")) {
+
+        }
+    }
+    public static void sendMessage(Message m){
+        if (session==null){
+
+        }
+        try {
+            session.getBasicRemote().sendObject(m);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (EncodeException e) {
+            e.printStackTrace();
+        }
     }
 }
