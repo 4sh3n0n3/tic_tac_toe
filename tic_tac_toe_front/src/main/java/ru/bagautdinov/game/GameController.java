@@ -60,7 +60,7 @@ public class GameController {
     public void paneCliced(javafx.scene.input.MouseEvent event) {
 
         Message outcomingMessageData=new Message();
-        outcomingMessageData.setUsername(username);
+        outcomingMessageData.setUsername(username.getText());
         String location="";
         if (event.getSource() == cell_0_0) {
             location="0 0";
