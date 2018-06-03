@@ -8,7 +8,7 @@ public class NewGameService {
     private Game newCollectedGame;
 
 
-    public Game makeNewGame(Player player) {
+    public static Game makeNewGame(Player player) {
         if (currentGame == null) {
             currentGame = new Game();
             currentGame.setP1(player);
