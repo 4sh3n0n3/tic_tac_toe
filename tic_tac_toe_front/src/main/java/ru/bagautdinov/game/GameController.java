@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 
-import java.awt.event.ActionEvent;
+import java.awt.event.MouseEvent;
 
 public class GameController {
 
@@ -56,7 +56,7 @@ public class GameController {
     @FXML
     public Text text_2_2;
 
-    public void paneCliced(ActionEvent event) {
+    public void paneCliced(javafx.scene.input.MouseEvent event) {
         if (event.getSource() == cell_0_0) {
             if (text_0_0.getText().equals("")) {
                 text_0_0.setText(playerChar);
