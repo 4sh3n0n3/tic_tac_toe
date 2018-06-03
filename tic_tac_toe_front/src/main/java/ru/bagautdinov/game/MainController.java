@@ -12,6 +12,6 @@ public class MainController {
     public TextField username;
 
     public void btnClicked(MouseEvent mouseEvent) {
-
+        App.changeStage(false);
     }
 }

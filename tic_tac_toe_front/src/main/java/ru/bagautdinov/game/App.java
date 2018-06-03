@@ -39,7 +39,7 @@ public class App  extends Application {
         }
         changeStage(true);
     }
-    public void changeStage(boolean isInMenu){
+    public static void changeStage(boolean isInMenu){
         if(isInMenu)menuStage.show();
         else gameStage.show();
     }
