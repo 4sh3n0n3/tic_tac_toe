@@ -1,8 +1,10 @@
 package ru.bagautdinov.service;
 
+import org.springframework.stereotype.Service;
 import ru.bagautdinov.models.Game;
 import ru.bagautdinov.models.Player;
 
+@Service
 public class NewGameService {
     private static Game currentGame;
     private Game newCollectedGame;
