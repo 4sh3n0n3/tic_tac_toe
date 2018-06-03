@@ -12,7 +12,6 @@ import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 import static java.lang.String.format;
@@ -39,8 +38,6 @@ public class ServerEndPoint {
     public void handleMessage(Message incomingMessage, Session session) throws IOException, EncodeException {
         Game currentGame = (Game) session.getUserProperties().get("currentGame");
         Player player = (Player) session.getUserProperties().get("player");
-        Player player = (Player) session.getUserProperties().get("player");
-
         Message outcomingMessageData = new Message();
         if(player==null){
             if(!pr.existsByName(incomingMessage.getUsername()))return;
@@ -51,17 +48,6 @@ public class ServerEndPoint {
 
 
 
-        if (username == null){
-            session.getUserProperties().put("username", incomingMessage.getUsername());
-            outcomingMessageData.setUsername("System");
-            outcomingMessageData.setMessage("you are now connected as "+ incomingMessage.getUsername());
-            session.getBasicRemote().sendObject(outcomingMessageData);
-        }else{
-            outcomingMessageData.setUsername(username);
-            outcomingMessageData.setMessage(incomingMessage.getMessage());
-            Iterator<Session> it = detailUsers.iterator();
-            while (it.hasNext())it.next().getBasicRemote().sendObject(outcomingMessageData);
-        }
     }
 
     @OnClose

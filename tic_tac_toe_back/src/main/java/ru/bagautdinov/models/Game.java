@@ -1,11 +1,8 @@
 package ru.bagautdinov.models;
 
 import javax.websocket.*;
-import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 
 /**
  * Created by User on 03.06.2018.
